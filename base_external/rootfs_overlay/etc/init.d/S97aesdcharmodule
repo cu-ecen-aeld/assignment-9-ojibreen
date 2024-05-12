@@ -1,0 +1,18 @@
+#!/bin/sh
+
+case "$1" in
+    # Load AESD char driver
+    start)
+        echo "Loading AESD char driver module"
+        cd /usr/bin
+        aesdchar_load
+        ;;
+    stop)
+        echo "Unloading AESD char driver module"
+        cd /usr/bin
+        aesdchar_unload
+        ;;
+    *)
+        echo "Usage: $0 {start|stop}"
+    exit 1
+esac
