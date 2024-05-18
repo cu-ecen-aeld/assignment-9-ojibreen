@@ -5,7 +5,7 @@
 ################################################################################
 
 # Specify commit hash and repo url.
-AESD_CHAR_DRIVER_VERSION = 'dac5636bce4a0923fdf34e85f3951585e821f298'
+AESD_CHAR_DRIVER_VERSION = '1a530ba709777460f9fd74a941dec4029a434fef'
 AESD_CHAR_DRIVER_SITE = 'git@github.com:cu-ecen-aeld/assignments-3-and-later-ojibreen.git'
 AESD_CHAR_DRIVER_SITE_METHOD = git
 AESD_CHAR_DRIVER_GIT_SUBMODULES = YES
